@@ -1,0 +1,82 @@
+Language model created by QuickLM on Mon Jun  9 13:15:30 EDT 2014
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 10 sentences and 14 words
+
+\data\
+ngram 1=14
+ngram 2=23
+ngram 3=22
+
+\1-grams:
+-0.9243 </s> -0.3010
+-0.9243 <s> -0.2460
+-1.6232 BACKWARD -0.2460
+-1.6232 FORWARD -0.2460
+-1.6232 GO -0.2798
+-1.9243 HI -0.2958
+-1.6232 LEFT -0.2460
+-1.9243 LITTLE -0.2958
+-1.3222 MOVE -0.2518
+-1.4472 RIGHT -0.2401
+-1.9243 ROBOT -0.2460
+-1.6232 ROTATE -0.2744
+-1.9243 STOP -0.2852
+-1.9243 THERE -0.2460
+
+\2-grams:
+-1.0000 <s> GO 0.0000
+-1.3010 <s> HI 0.0000
+-0.6990 <s> MOVE 0.0000
+-1.0000 <s> ROTATE 0.0000
+-1.3010 <s> STOP 0.0000
+-0.3010 BACKWARD </s> -0.3010
+-0.3010 FORWARD </s> -0.3010
+-0.6021 GO BACKWARD 0.0000
+-0.6021 GO FORWARD 0.0000
+-0.3010 HI LITTLE 0.0000
+-0.3010 LEFT </s> -0.3010
+-0.3010 LITTLE ROBOT 0.0000
+-0.9031 MOVE BACKWARD 0.0000
+-0.9031 MOVE FORWARD 0.0000
+-0.9031 MOVE LEFT 0.0000
+-0.9031 MOVE RIGHT -0.1249
+-0.4771 RIGHT </s> -0.3010
+-0.7782 RIGHT THERE 0.0000
+-0.3010 ROBOT </s> -0.3010
+-0.6021 ROTATE LEFT 0.0000
+-0.6021 ROTATE RIGHT -0.1249
+-0.3010 STOP RIGHT -0.2218
+-0.3010 THERE </s> -0.3010
+
+\3-grams:
+-0.6021 <s> GO BACKWARD
+-0.6021 <s> GO FORWARD
+-0.3010 <s> HI LITTLE
+-0.9031 <s> MOVE BACKWARD
+-0.9031 <s> MOVE FORWARD
+-0.9031 <s> MOVE LEFT
+-0.9031 <s> MOVE RIGHT
+-0.6021 <s> ROTATE LEFT
+-0.6021 <s> ROTATE RIGHT
+-0.3010 <s> STOP RIGHT
+-0.3010 GO BACKWARD </s>
+-0.3010 GO FORWARD </s>
+-0.3010 HI LITTLE ROBOT
+-0.3010 LITTLE ROBOT </s>
+-0.3010 MOVE BACKWARD </s>
+-0.3010 MOVE FORWARD </s>
+-0.3010 MOVE LEFT </s>
+-0.3010 MOVE RIGHT </s>
+-0.3010 RIGHT THERE </s>
+-0.3010 ROTATE LEFT </s>
+-0.3010 ROTATE RIGHT </s>
+-0.3010 STOP RIGHT THERE
+
+\end\
