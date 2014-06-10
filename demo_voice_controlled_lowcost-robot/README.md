@@ -32,18 +32,25 @@ $ espeak -ven-f3 -s160 "Voice Commands for  Low-Cost Robot with pocketsphinx and
 ## Vocabulary Commmands (corpus)
 
 move forward
+
 move backward
+
 move left
+
 move right
 
 go forward
+
 go backward
+
 rotate left
+
 rotate right
 
 stop right there
 
 hi little robot
+
 
 ### Main References
 
